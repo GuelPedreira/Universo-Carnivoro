@@ -1,0 +1,100 @@
+
+
+/* Estilo para el encabezado */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2; /* Asegura que el encabezado esté por encima de la imagen de fondo */
+}
+
+
+
+/* Estilo para centrar el texto en la línea */
+.navbar-brand {
+    margin: 0 auto; /* Aplica márgenes automáticos para centrar horizontalmente */
+    text-align: center; /* Añade alineación central de texto */
+    display: block; /* Asegura que el enlace sea un bloque y ocupe toda la línea */
+}
+
+
+/* Estilo para el logo */
+.logo-image {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 50px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+
+
+/* Estilo para la imagen de fondo */
+.background-image {
+    position: relative;
+    padding: 0.5%;
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+    overflow: hidden; /* Evita que la imagen se desborde si su relación de aspecto no coincide con la pantalla */
+}
+
+.background-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%; /* Resta el tamaño del encabezado (56px) al alto total de la pantalla */
+}
+
+
+
+/* Estilo para el texto superpuesto */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.overlay h1 {
+    font-size: 36px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.overlay h1 {
+    font-size: 36px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+
+
+.carousel-item img {
+    max-height: 80vh; 
+    width: auto; 
+}
+
+
+.imagen-card {
+    height: 250px;
+  }
+  
