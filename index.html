@@ -7,32 +7,22 @@
     <title>Universo Carnívoro</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target="#mainNav" style="background-color: #e9f7af">
     <header>
-
-
         <nav class="navbar bg-body-tertiary fixed-top">
-            <div class="container-fluid">
+            <div class="container-fluid gr-overlay">
 
-
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo_universo_carnívoro0.jpeg" alt="Logo" class="logo-image">
-                    UNIVERSO CARNÍVORO
-                </a>
-
-
+                <img src="assets/img/logo_universo_carnívoro0.jpeg" alt="Logo" class="logo-image">
+                UNIVERSO CARNÍVORO
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
@@ -45,31 +35,31 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Alimentación</a>
+                                <a class="nav-link" href="#Alimentación">Alimentación</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" id="Tipos" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     Tipos de Plantas
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Dionaea Muscipula</a></li>
-                                    <li><a class="dropdown-item" href="#">Droseras</a></li>
-                                    <li><a class="dropdown-item" href="#">Nepenthes</a></li>
-                                    <li><a class="dropdown-item" href="#">Pinguículas</a></li>
-                                    <li><a class="dropdown-item" href="#">Sarracenias</a></li>
-                                    <li><a class="dropdown-item" href="#">Darlingtonias</a></li>
+                                    <li><a class="dropdown-item" href="#Dionaea">Dionaea Muscipula</a></li>
+                                    <li><a class="dropdown-item" href="#Droseras">Droseras</a></li>
+                                    <li><a class="dropdown-item" href="#Nepenthes">Nepenthes</a></li>
+                                    <li><a class="dropdown-item" href="#Pinguículas">Pinguículas</a></li>
+                                    <li><a class="dropdown-item" href="#Sarracenias">Sarracenias</a></li>
+                                    <li><a class="dropdown-item" href="#Darlingtonias">Darlingtonias</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Otros tipos</a></li>
+                                    <li><a class="dropdown-item" href="#otros">Otros tipos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Videos</a>
+                                <a class="nav-link" href="#videos-section">Carnívoras en Acción</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                         <form class="d-flex mt-3" role="search">
@@ -81,181 +71,444 @@
             </div>
         </nav>
 
+
     </header>
 
+    <main>
 
-    <div class="background-image">
-        <img src="assets/img/15.jpg" class="img-fluid" alt="Fondo de pantalla">
-        <div class="overlay">
-            <h1 class="display-4">Texto Superpuesto</h1>
-            <p class="lead">Este es un texto superpuesto en la imagen de fondo.</p>
-        </div>
-    </div>
-
-
-
-    <div class="container">
-        <h3 class="text-center mt-2">Así se alimentan las carnívoras</h3>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/roridula-comiendo.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/dionaea_presa_2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/img/drosera-comiendo.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/Dionaea muscipula Fused Tooth 4.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/img/dionaea-muscipula-comiendo-1024x768.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+        <section class="container" id="home">
+            <div class="background-image">
+                <img src="assets/img/15.jpg" class="img-fluid" alt="Fondo de pantalla">
+                <div class="overlay bg-transparent">
+                    <h1 class="display-4">PLANTAS CARNÍVORAS</h1>
+                    <p class="lead">Se diferencian del resto porque obtienen alimento no solo a través de la
+                        fotosíntesis,
+                        sino
+                        también cazando y digiriendo animales. De hecho, para ser auténticas plantas carnívoras, tienen
+                        que
+                        atraer, capturar y digerir a sus presas, no basta con una de las tres acciones, deben realizar
+                        las
+                        tres.
+                    </p>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+        </section>
 
 
+        <section class="container" id="Alimentación">
+            <h2 class="text-center mb-8 mt-5">Así se alimentan las carnívoras</h2>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+
+                </div>
 
 
-    <h2 class="text-center mb-4 mt-5">Tipos de Plantas Carnívoras</h2>
-    <div class="card-group">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/drosera-comiendo.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Droseras, Rocío de Sol, Hierba de la gota, Rosolí</h5>
+                            <p>Todas las especies tienen hojas con tentáculos en la parte superior.
+                                Estos tentáculos producen una especie de pegamento, de forma que hay una gotita de
+                                pegamento
+                                al final de cada tentáculo.
+                            </p>
+                        </div>
+                    </div>
 
-        <div class="card">
-            <img src="assets/img/drosera_0.jpg" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Droseras</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
+                    <div class="carousel-item">
+                        <img src="assets/img/dionaea_presa_2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Droseras, Rocío de Sol, Hierba de la gota, Rosolí</h5>
+                            <p>Según las especies, estos pelos son más o menos móviles y se abrazan a la víctima para
+                                inmovilizarla y aumentar la superficie en contacto, e incluso, en algunas especies, son
+                                las
+                                hojas las que enrollan al insecto.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Dionaea muscipula Fused Tooth 4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dionaea, una planta carnívora de la familia Droseraceae.</h5>
+                            <p>El nombre común dionea atrapamoscas o venus atrapamoscas hace referencia a su hábito
+                                alimenticio de atrapar presas vivas, principalmente insectos y arácnidos.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/dionaea-muscipula-comiendo-1024x768.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tránsito lento</h5>
+                            <p>El sistema digestivo de una Dionaea muscipula es lento, tardando hasta 10 días en digerir
+                                completamente los insectos y reabrir su trampa</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/utri.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>La más rápida del reino vegetal</h5>
+                            <p>Es la planta con el movimiento más rápido del reino vegetal y una de las plantas
+                                acuáticas más increíbles. Las trampas son de succión activa. El proceso de captura de
+                                presas dura sólo 15/1000
+                                segundos lo que se supone el movimiento
+                                más rápido en el reino vegetal.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <h2 class="text-center mb-8 mt-5">Tipos de Plantas Carnívoras</h2>
+
+            <!-- Tarjetas Verticales -->
+            <div class="container">
+                <div class="card-group">
+                    <!-- Droseras -->
+                    <div id="Droseras" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/drosera_0.jpg" class="card-img-top img-fluid imagen-card" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Droseras</h5>
+                            <p class="card-text">Familia: Droseraceae.
+                                Origen: sus especies se encuentran repartidas por el mundo, pero más de la mitad
+                                proceden de Australia.
+                                Existen más de 100 especies y muchos híbridos.
+                                Este género es el segundo más grande de las plantas carnívoras después de Utricularia.
+                                Dada su gran distribución, hay plantas de las formas más variadas.
+                                Sus hojas de las mas diversas formas y tamaños, están cubiertas de pequeños pelos
+                                glandulares, divididos en dos tipos.
+                                Todas las especies tienen hojas con tentáculos en la parte superior.
+                                Estos tentáculos producen una especie de pegamento, de forma que hay una gotita de
+                                pegamento al final de cada tentáculo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+
+                    <!-- Pinguículas -->
+                    <div id="Pinguículas" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/Pinguicula antarctica 3.JPG" class="card-img-top img-fluid imagen-card"
+                                alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Pinguículas</h5>
+                            <p class="card-text">Familia: Lentibulariaceae.
+                                Origen: regiones del Hemisferio Norte, México, América Central, Argentina, Islas del
+                                Caribe y regiones tropicales y subtropicales.
+                                Existen varias decenas de especies, así como muchos híbridos y podemos dividirlas en dos
+                                grandes grupos:
+                                - Especies nórdicas:
+                                Producen yemas resistentes al frío en invierno, perdiendo sus hojas, y se reproducen por
+                                propágulos en otoño. Su cultivo es más complicado y se mantienen al exterior.
+                                - Especies subtropicales y mexicanas:
+                                No pasan por periodos de frío.
+                                Las plantas de este género tienen hojas de consistencia carnosa, casi suculentas, que
+                                forman una roseta pegada al suelo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+
+                    <!-- Dionaea -->
+                    <div id="Dionaea" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/dionaea_9.jpg" class="card-img-top img-fluid imagen-card" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Dionaea</h5>
+                            <p class="card-text">Familia: Droseraceae.
+                                Origen: Carolina del sur y del norte (Estados Unidos).
+                                Consta de un rizoma, del cual salen las hojas en forma de roseta y crecen al nivel del
+                                suelo, el final de las hojas se encuentra formada por dos lóbulos (trampa).
+                                Tiene un tallo floral, en forma de racimo de 2 a 10 flores blancas.
+                                La floración causa el debilitamiento de esta planta.
+                                El follaje en invierno se atrofia. Puede desaparecer completamente en invierno y luego
+                                rebrotar en primavera.
+                                Las raíces le sirven para anclaje y para tomar agua, se alimenta por sus trampas. Para
+                                que la trampa se cierre, el insecto tiene que tocar dos veces seguidas el mismo pelo o
+                                dos
+                                pelos de forma simultánea.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group">
+                    <!-- Sarracenias -->
+                    <div id="Sarracenias" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/Sarracenia alata 1.jpg" class="card-img-top img-fluid imagen-card"
+                                alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Sarracenias</h5>
+                            <p class="card-text">Familia: Sarraceniaceae.
+                                Origen: Este de EEUU y Canadá.
+                                Hay 8 especies de Sarracenia y varias decenas de híbridos.
+                                Los jarros crecen en vertical en todas las especies menos en Sarracenia purpurea y en
+                                Sarracenia psittacina, en las cuales los jarros se apoyan en el suelo.
+                                Las tapas de los jarros son inmóviles, porque sirven para que no entre demasiado agua de
+                                lluvia, ya que de lo contrario los líquidos digestivos se diluirían demasiado.
+                                Como las paredes son muy lisas, la presa resbala y cae hasta el fondo del jarro.
+                                No puede subir porque hay unos pelos dirigidos hacia abajo que se lo impiden.
+                                En el fondo de los jarros hay líquidos digestivos que contienen enzimas.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+
+                    <!-- Nepenthes -->
+                    <div id="Nepenthes" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/nepenthes_12.jpg" class="card-img-top img-fluid imagen-card" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Nepenthes</h5>
+                            <p class="card-text">Familia: Nepenthaceae.
+                                Origen: los nepenthes se encuentran en todas los regiones indopacíficas, comprendidas
+                                entre las Seychelles al norte, Madagascar al oeste y Nueva Caledonia al este, con una
+                                concentración importante de especies en Malasia, Borneo, Sumatra, Filipinas, Java y
+                                Papúa Nueva
+                                Guinea.
+                                Existen unas 80 especies, además de variedades e híbridos de origen natural u hortícola.
+                                Las Nepenthes se dividen en:
+                                - Especies de tierras bajas:
+                                Clima cálido y constantemente húmedo.
+                                - Especies de tierras altas o montañosas:
+                                Las espectaculares Nepenthes montañosas se encuentran en terrenos más altos, donde las
+                                noches son mucho más frescas.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+
+                    <!-- Darlingtonias -->
+                    <div id="Darlingtonias" class="card bg-transparent">
+                        <a href="#">
+                            <img src="assets/img/Darlingtonias califórnica 6.jpg"
+                                class="card-img-top img-fluid imagen-card" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Darlingtonias</h5>
+                            <p class="card-text">Familia: Sarraceniaceae.
+                                Origen: crece silvestre en California y Oregón (Estados Unidos).
+                                Su aspecto recuerda al de una serpiente cobra, a la que debe su nombre común.
+                                Hojas tubulares, de color verde, encorvadas, con un opérculo bífido, como una lengua de
+                                serpiente.
+                                La Planta Cobra captura sobre todo moscas o avispas, pero plantas adultas incluso pueden
+                                ser capaces de capturar presas más grandes. El néctar los atrae.
+                                No pueden escapar, ya que las paredes son muy lisas y además hay unos pelos dirigidos
+                                hacia abajo que les impiden subir.
+                                Una vez que el insecto cae al líquido en el interior de la trampa, bacterias y
+                                microorganismos se encargan de descomponerlo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Conocé más</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- inicio card Horizontal -->
+        <section class="my-5">
+            <h2 id="videos-section" class="text-center mb-8 mt-3">Carnívoras en Acción</h2>
+            <div class="card mb-8 bg-transparent">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/JkZtcmCyP20?si=1ph3vs8OUfFAjF-Y"
+                            title="YouTube video de Aldrovanda"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">IMPRESIONANTE CAPTURA DE PLANTA CARNÍVORA ACUÁTICA.</h5>
+                            <p class="card-text">La ALDROVANDA captura a sus presas con unas hojas que presentan un
+                                evento de plegamiento similar a una versión más pequeña de la Venus atrapamoscas.
+                                Captura en el agua pequeños animales, de preferencia las pulgas de agua, y otros
+                                animales pequeños como jóvenes larvas de mosquitos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-8 mt-2 bg-transparent">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/FZqFf1mzOSc?si=CA48Z0ytx2ReJlv2"
+                            title="YouTube video de Cephalotus"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">ESPECIE ÚNICA: CEPHALOTUS FOLLICULARIS.</h5>
+                            <p class="card-text">Sobre todo se alimenta de hormigas y grillos. La planta atrae a sus
+                                presas mediante unos jarros con el borde impregnado de un néctar resbaladizo, que la
+                                propia
+                                planta produce. El insecto cae hasta el fondo del jarro y no tiene ninguna oportunidad
+                                de escapar.
+                                Una vez dentro, comienza el proceso de descomposición mediante enzimas, para acabar
+                                absorbiendo todos los nutrientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-8 mt-2 bg-transparent">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/wfBh7lZqIr0?si=EoaIh3J6kcf2KdYd"
+                            title="YouTube video de Venus"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">SIN CEREBRO PERO CON MEMORIA</h5>
+                            <p class="card-text">Un primer contacto con el pelo sensor no es suficiente para cerrar la
+                                trampa (podría ser una falsa alarma), pero sirve para ponerse alerta. Un segundo
+                                contacto en
+                                menos de 30 segundos, y el órgano de captura se cerrará sobre su presa. Mientras intenta
+                                escapar, el insecto vuelve a tocar repetidamente el pelo sensor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contacto" class="border border-primary rounded col-9 mx-auto mt-5 mb-5">
+            <h2 class="text-center mt-4 mb-5">Comuníquese con nosotros</h2>
+            <form class="bg-transparent">
+                <div class="mb-4 col-9 mx-auto text-center">
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+                    <h6>* campo obligatorio</h6>
+                </div>
+
+                <div class="mb-4 col-9 mx-auto text-center">
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" class="input-padron" required
+                        placeholder="email@dominio.com">
+                    <h6>* campo obligatorio</h6>
+                </div>
+
+                <div class="mb-4 col-9 mx-auto text-center">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                    <h6>* campo obligatorio</h6>
+                </div>
+
+                <div class="mb-4 col-9 mx-auto text-center">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba sus comentarios, consultas o
+                        sugerencias</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <h6>* campo obligatorio</h6>
+                </div>
+
+                <fieldset>
+                    <div class="mb-3 mt-3 col-9 mx-auto text-center">
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contacto" value="email"
+                                id="radio-email">Email</label>
+
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"
+                                id="radio-telefono">Teléfono</label>
+
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"
+                                id="radio-whatsapp" checked>WhatsApp</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <div class="mb-3 mt-3 col-9 mx-auto text-center">
+                        <legend>¿En qué horario prefiere recibir nuestro contacto??</legend>
+                        <select>
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <div class="mb-3 mt-3 col-9 mx-auto text-center">
+                    <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de Universo
+                        Carnívoro?</label>
+                </div>
+
+                <div class="mb-3 mt-5 col-9 mx-auto text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-success">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col">
+                    <a href="#home">HOME</a>
+                </div>
+                <div class="col">
+                    <a href="#Alimentación">ALIMENTACIÓN</a>
+                </div>
+                <div class="col">
+                    <a href="#Droseras">TIPOS</a>
+                </div>
+                <div class="col">
+                    <a href="#videos-section">VIDEOS</a>
+                </div>
+                <div class="col">
+                    <a href="#contacto">CONTACTO</a>
+                </div>
+
             </div>
         </div>
-
-
-
-        <div class="card">
-            <img src="assets/img/Pinguicula antarctica 3.JPG" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Pinguículas</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
+        <div class="row-footer text-center justify-content-center">
+            <div class="col">
+                <p class="small-text">&copy; Copyright Universo Carnívoro - 2023</p>
             </div>
         </div>
-
-
-
-        <div class="card">
-            <img src="assets/img/dionaea_9.jpg" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Dionaea</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
-            </div>
-        </div>
-
-
-    <div class="card-group">    
-
-
-        <div class="card">
-            <img src="assets/img/Sarracenia alata 1.jpg" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Sarracenias</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
-            </div>
-        </div>
-
-
-
-        <div class="card">
-            <img src="assets/img/nepenthes_12.jpg" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nepenthes</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
-            </div>
-        </div>
-
-
-
-        <div class="card">
-            <img src="assets/img/Darlingtonias califórnica 6.jpg" class="card-img-top img-fluid imagen-card" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Darlingtonias</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Conocé más</a>
-            </div>
-        </div>
-
-        
-    
-    <!-- inicio card Horizontal -->
-    <h2 class="text-center">Card horizontal</h2>
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="assets/img/dionaea_9.jpg" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-
-
-
-
+    </footer>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-
 
 </body>
 
 </html>
-
